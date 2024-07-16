@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Downloader</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="download.php" method="POST" enctype="multipart/form-data">
+        <h1>Download YOUTUBE Thumbnail and Video's</h1>
+        <div class="input-link">
+            <div class="title">Paste the link :</div>
+            <div class="field">
+                <input type="text"  name="image_url" placeholder="https://www.youtube.com/watch?v=FucPPCPDd2Y&list=" required>
+                <input type="hidden" class="hidden-inp" name="thumbnail_url">
+            </div>
+        </div>
+        <div class="preview-area">
+            <img class="thumbnail" src="" alt="">
+            <i class="icon ri-download-cloud-fill"></i>
+            <h3>paste the link to see preview.</h3>
+        </div>
+        <button class="download" type="submit">DOWNLOAD</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Downloader</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="download.php" method="POST" enctype="multipart/form-data">
+        <h1>Download YOUTUBE Thumbnail and Video's</h1>
+        <div class="input-link">
+            <div class="title">Paste the link :</div>
+            <div class="field">
+                <input type="text" name="imgurl" placeholder="https://www.youtube.com/watch?v=FucPPCPDd2Y&list=" required>
+                <input type="hidden" class="hidden-inp" name="thumbnail_url">
+            </div>
+        </div>
+        <div class="preview-area">
+            <img class="thumbnail" src="" alt="">
+            <i class="icon ri-download-cloud-fill"></i>
+            <h3>paste the link to see preview.</h3>
+        </div>
+        <button class="download" type="submit" name="button">DOWNLOAD</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
